@@ -1,0 +1,17 @@
+.videos{
+    display: grid;
+    gap: .2rem;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    max-height: 40vh;
+    overflow: scroll;
+    border-bottom:  1rem solid white;
+}
+
+
+input[type='text']{
+    width: 200px;
+    max-height: 4rem;
+    padding: .2rem;
+    border-radius: 8px;
+    margin-bottom: .2rem;
+}
